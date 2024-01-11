@@ -1,0 +1,23 @@
+img {
+    width: 730px;
+    height: 500px;
+}
+
+.logo {
+    text-align: center;
+    background-color: #f6f6f6;
+    height: 559.2px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    
+}
