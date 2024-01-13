@@ -1,10 +1,13 @@
 import './App.css';
-import Logo from './components/logo/logo';
+import Portfolio from './components/Portfolio';
+import Header from './components/header';
+
 
 function App() {
   return (
     <div>
-      <Logo />
+      <Header />
+      <Portfolio />
     </div>
   );
 }

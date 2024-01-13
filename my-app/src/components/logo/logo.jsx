@@ -3,7 +3,7 @@ import logo from '../img/logo-g-color@2x.png'
 
 const Logo = () => {
     return (
-       <div className="logo">
+        <div className="logo">
             <img src={logo} alt="logo" />
             <ul>
                 <li>Послуги</li>
@@ -11,7 +11,7 @@ const Logo = () => {
                 <li>Портфоліо</li>
                 <li>Контакти</li>
             </ul>
-       </div>
+        </div>
     );
 };
 
