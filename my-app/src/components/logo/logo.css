@@ -1,0 +1,26 @@
+.logo {
+    text-align: center;
+    background-color: #f6f6f6;
+    height: 500px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: gray;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li:hover {
+    color: #241e27;
+    transition: .2s;
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}
