@@ -1,8 +1,9 @@
-import './services.css'
+import './services.css';
 import Header from '../header/header';
-import img1 from "../img/KET00260.jpg"
-import img2 from "../img/KET03537+.jpg"
-import img3 from "../img/KET05990.jpg"
+import img1 from "../img/KET00260.jpg";
+import img2 from "../img/KET03537+.jpg";
+import img3 from "../img/KET05990.jpg";
+import { Link } from 'react-router-dom';
 
 const Services = () => {
     return (
@@ -18,7 +19,7 @@ const Services = () => {
             </div>
             <p className='p'>ціни розраховуються індивідуально в залежності від складності, для цього потрібно <br/>заповнити форму</p>
             <div className="service">
-                <button className='service-button'>форма замовлення</button>
+                <Link to="/contacts"><button className='service-button'>форма замовлення</button></Link>
             </div> 
             <div className='end'>Back to Top</div>
         </>

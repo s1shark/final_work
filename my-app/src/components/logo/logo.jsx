@@ -12,7 +12,7 @@ const Logo = () => {
                 <Link to='/services'><li>Послуги</li></Link>
                 <Link to='/about-me'><li>Про мене</li></Link>
                 <Link to='/portfolio'><li>Портфоліо</li></Link>
-                <li>Контакти</li>
+                <Link to="/contacts"><li>Контакти</li></Link>
             </ul>
         </div>
     );
