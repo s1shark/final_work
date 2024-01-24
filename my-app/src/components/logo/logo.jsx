@@ -1,15 +1,18 @@
 import './logo.css'
 import logo from '../img/logo-g-color@2x.png'
+import { Link } from "react-router-dom";
 
 const Logo = () => {
     return (
         <div className="logo">
-            <img src={logo} alt="logo" />
+            <Link to='/'>
+                <img src={logo} alt="logo" />
+            </Link>
             <ul>
-                <li>Послуги</li>
-                <li>Про мене</li>
-                <li>Портфоліо</li>
-                <li>Контакти</li>
+                <Link to='/services'><li>Послуги</li></Link>
+                <Link to='/about-me'><li>Про мене</li></Link>
+                <Link to='/portfolio'><li>Портфоліо</li></Link>
+                <Link to="/contacts"><li>Контакти</li></Link>
             </ul>
         </div>
     );

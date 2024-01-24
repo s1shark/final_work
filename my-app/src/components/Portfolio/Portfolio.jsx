@@ -2,10 +2,12 @@ import './portfolio.css'
 import gornyatko from '../img/KET03537+.jpg'
 import firstIMG from '../img/KET00260.jpg'
 import secondIMG from '../img/KET05990.jpg'
+import Header from '../header';
 
 const Portfolio = () => {
     return (
         <>
+            <Header />
             <div className='main'>
                 <div className="gornyatko">
                     <img className='img1' src={gornyatko} alt="img" />

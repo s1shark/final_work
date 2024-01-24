@@ -1,0 +1,43 @@
+.imgBig {
+    width: 792px;
+}
+
+.about-main {
+    display: flex;
+    justify-content: space-around;
+}
+.about-h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.about-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.about-p {
+    text-align: left;
+    line-height: 45px;
+    font-size: 20px;
+    font-family: serif;
+    color: gray;
+}
+.about-button {
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.about-to-portfolio {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+button:hover {
+    cursor: pointer;
+}
