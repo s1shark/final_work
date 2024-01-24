@@ -1,3 +1,4 @@
+import './contact.css'
 import Header from '../header'
 
 const Contact = () => {
