@@ -6,7 +6,7 @@ import Header from '../header';
 
 const Portfolio = () => {
     return (
-        <>
+        <div className='div-portfolio'>
             <Header />
             <div className='main'>
                 <div className="gornyatko">
@@ -25,8 +25,7 @@ const Portfolio = () => {
                     <p className='label'>2023</p>
                 </div>
             </div>
-            <div className='end'>Back to Top</div>
-        </>
+        </div>
     );
 };
 

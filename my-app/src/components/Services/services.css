@@ -1,6 +1,9 @@
 body {
     background-color: rgb(226, 220, 220);
 }
+.div {
+    height: 1300px;
+}
 
 h1 {
     text-align: center;
