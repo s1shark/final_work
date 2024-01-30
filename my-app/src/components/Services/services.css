@@ -38,3 +38,11 @@ h1 {
     font-family: 'Roboto';
     margin-top: 70px;
 }
+
+.carousel-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    outline: none;
+  }

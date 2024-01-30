@@ -1,3 +1,24 @@
 .div-form {
     text-align: center;
 }
+label {
+    color: #808080;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input {
+    width: 350px;
+    height: 30px;
+}
+textarea {
+    width: 350px;
+    height: 130px;
+}
+.contact-button {
+    margin-top: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
