@@ -1,0 +1,16 @@
+.board-images img {
+    width: 300px;
+}
+.board-div {
+    text-align: center;
+    height: 1100px;
+}
+
+.board-button {
+    width: 150px;
+    height: 27px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
