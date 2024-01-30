@@ -4,7 +4,7 @@ import { ABOUTME_PATH, CONTACTS_PATH, HOME_PATH, PORTFOLIO_PATH, SERVICES_PATH }
 import Portfolio from './components/Portfolio'
 import Services from './components/Services';
 import About from './components/Aboutme/About';
-import Contact from './components/Contact';
+import Contact from './components/Contact'
 
 function App() {
   return (
